@@ -5,7 +5,7 @@
 from flask import Flask
 from  urllib import request
 
-res=request.urlopen("http://www.sxuek.com")
+res=request.urlopen("http://www.baidu.com")
 con=res.read().decode("utf8")
 print(con);
 
